@@ -1,11 +1,11 @@
 :root {
   /* custom colors */
-  --main: #7604a2;
-  --main-light: #ce5c80;
-  --main-dark: #250a43;
+  --main: #4285f4;
+  --main-light: #4285f4;
+  --main-dark: #4285f4;
   --gradient: linear-gradient(45deg, var(--main), var(--main-dark));
 
-  --bg-body: #eff5f7;
+  --bg-body: #fff;
 
   /* default colors */
   --black: rgb(20, 20, 20);

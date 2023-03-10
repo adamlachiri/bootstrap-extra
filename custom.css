@@ -1,1 +1,17 @@
 /* your custom css goes here */
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+html,
+body {
+  scroll-behavior: smooth !important;
+}
+
+.map {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border: 0;
+}
