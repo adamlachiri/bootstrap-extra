@@ -1,8 +1,8 @@
 :root {
   /* custom colors */
   --main: #4285f4;
-  --main-light: #4285f4;
-  --main-dark: #4285f4;
+  --main-light: #639ffe;
+  --main-dark: #246de3;
   --gradient: linear-gradient(45deg, var(--main), var(--main-dark));
 
   --bg-body: #fff;
@@ -21,7 +21,7 @@
   --teal: #20c997;
   --cyan: #0dcaf0;
   --white: #fff;
-  --lightgray: #e8e8e8;
+  --lightgray: #f0f0f0;
   --gray-dark: #343a40;
   --primary: #0d6efd;
   --secondary: #6c757d;

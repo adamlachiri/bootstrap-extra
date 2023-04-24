@@ -1,17 +1,28 @@
 /* your custom css goes here */
 
+@media (max-width: 576px) {
+  html {
+    font-size: 3vw !important;
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 2vw !important;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.2vw !important;
+  }
+}
+
 .btn {
-  text-transform: uppercase;
-  font-size: 1.5rem;
+  text-transform: capitalize;
 }
 
 html,
 body {
   scroll-behavior: smooth !important;
-}
-
-.map {
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  border: 0;
 }
