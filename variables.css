@@ -1,12 +1,5 @@
 :root {
-  /* custom colors */
-  --main: #4285f4;
-  --main-light: #639ffe;
-  --main-dark: #246de3;
-  --gradient: linear-gradient(45deg, var(--main), var(--main-dark));
-
   --bg-body: #fff;
-
   /* default colors */
   --black: rgb(20, 20, 20);
   --darkgray: rgb(70, 70, 70);
@@ -31,8 +24,4 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #212529;
-
-  /* font families */
-  --font-numeric: "Exo 2", sans-serif;
-  --font-body: "Montserrat", sans-serif;
 }
