@@ -1,5 +1,5 @@
-# bootstrap-complementary
+# bootstrap-ui
 
-bootstrap complementary
-author: ADAM LACHIRI
+bootstrap ui
+author: Adam Lachiri
 version: 1.3
