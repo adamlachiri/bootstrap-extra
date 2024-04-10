@@ -1,28 +1,389 @@
-/* your custom css goes here */
+/* defaults */
 
-@media (max-width: 576px) {
-  html {
-    font-size: 3vw !important;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-transition: background-image 0.2s ease-in-out;
+  transition: background-image 0.5s ease-in-out;
+  border-collapse: collapse;
+  overflow-wrap: break-word;
 }
 
-@media (min-width: 576px) {
-  html {
-    font-size: 2vw !important;
-  }
+a {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 1.2vw !important;
-  }
+a:hover {
+  color: inherit;
 }
 
-.btn {
+button:focus {
+  outline: 0;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  text-align: start;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  min-width: 12rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-family: var(--font-primary);
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+label {
   text-transform: capitalize;
 }
 
-html,
-body {
-  scroll-behavior: smooth !important;
+/* displays */
+
+.d-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-align {
+  display: flex;
+  align-items: center;
+}
+
+/* flex */
+
+.justify-self-end {
+  justify-self: flex-end;
+}
+
+/* fonts families */
+
+.font-primary {
+  font-family: var(--font-primary);
+}
+
+.font-secondary {
+  font-family: var(--font-secondary);
+}
+
+/* text shadow */
+
+.text-shadow {
+  text-shadow: 0 0 0.5rem var(--black);
+}
+
+/* text alignement */
+
+@media (max-width: 576px) {
+  .text-sm-normal {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .text-md-normal {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .text-lg-normal {
+    text-align: center;
+  }
+}
+
+/* text color */
+
+.text-yellow {
+  color: var(--yellow);
+}
+
+.text-lightgray {
+  color: var(--lightgray);
+}
+
+.text-darkgray {
+  color: var(--darkgray);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+/* background color */
+
+.bg-yellow {
+  background: var(--yellow);
+}
+
+.bg-lightgray {
+  background: var(--lightgray);
+}
+
+.bg-darkgray {
+  background: var(--darkgray);
+}
+
+.bg-black {
+  background: var(--black);
+}
+
+.bg-white {
+  background: var(--white);
+}
+
+/* background position */
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-top {
+  background-position: top;
+}
+
+.bg-left {
+  background-position: left;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-classic {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg-page {
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: -2;
+}
+
+/* filter */
+
+.filter-light {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.filter-dark {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem;
+}
+
+.blur {
+  filter: blur(1rem);
+}
+
+/* hover background color */
+
+.hover-bg-yellow:hover {
+  background: var(--yellow);
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.hover-bg-lightgray:hover {
+  background: var(--lightgray);
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.hover-bg-darkgray:hover {
+  background: var(--darkgray);
+  color: var(--light);
+  cursor: pointer;
+}
+
+.hover-bg-black:hover {
+  background: var(--black);
+  color: var(--light);
+  cursor: pointer;
+}
+
+.hover-bg-white:hover {
+  background: var(--white);
+  color: var(--dark);
+  cursor: pointer;
+}
+
+/* hover */
+
+.hover-spacing {
+  transition: 0.3s linear;
+}
+.hover-spacing:hover {
+  letter-spacing: 0.2rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.hover-opacity {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.hover-opacity:hover {
+  opacity: 1;
+}
+
+/* box */
+
+.section {
+  overflow: hidden;
+  padding: 10rem 0;
+}
+
+/* border */
+
+.border-none {
+  border: none;
+}
+
+.border-yellow {
+  border-color: var(--yellow);
+}
+
+.border-lightgray {
+  border-color: var(--lightgray);
+}
+
+.border-darkgray {
+  border-color: var(--darkgray);
+}
+
+.border-black {
+  border-color: var(--black);
+}
+
+.border-white {
+  border-color: var(--white);
+}
+
+/* position */
+
+.inset-0 {
+  inset: 0;
+}
+
+/* image */
+
+.img-cover {
+  object-fit: cover;
+}
+
+/* validation */
+
+.required::after {
+  content: " *";
+  color: #ea5e5e;
+}
+
+.optional::after {
+  content: " ( optional )";
+  color: #777;
+  font-size: 0.7rem;
+}
+
+/* ratio */
+
+.ratio-square {
+  content: "";
+  display: block;
+  padding-top: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ratio-16-9 {
+  content: "";
+  display: block;
+  padding-top: 56%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -1,0 +1,37 @@
+/* your custom css goes here */
+
+@media (max-width: 576px) {
+  html {
+    font-size: 3vw !important;
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 2vw !important;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.2vw !important;
+  }
+}
+
+@media (min-width: 996px) {
+  html {
+    font-size: 1.2vw !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 1.2vw !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 1.2vw !important;
+  }
+}

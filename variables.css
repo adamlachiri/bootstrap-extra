@@ -1,8 +1,14 @@
 :root {
-  --bg-body: #fff;
-  /* default colors */
-  --black: rgb(20, 20, 20);
-  --darkgray: rgb(70, 70, 70);
+  /* shades */
+  --black: #141414;
+  --dark: #212529;
+  --darkgray: #464646;
+  --secondary: #6c757d;
+  --lightgray: #f0f0f0;
+  --light: #f8f9fa;
+  --white: #fff;
+
+  /* colors */
   --blue: #0d6efd;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -13,15 +19,13 @@
   --green: #198754;
   --teal: #20c997;
   --cyan: #0dcaf0;
-  --white: #fff;
-  --lightgray: #f0f0f0;
-  --gray-dark: #343a40;
   --primary: #0d6efd;
-  --secondary: #6c757d;
   --success: #198754;
   --info: #0dcaf0;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #f8f9fa;
-  --dark: #212529;
+
+  /* fonts */
+  --font-primary: sans-serif;
+  --font-secondary: sans-serif;
 }
