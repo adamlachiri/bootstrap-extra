@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-extra",
+  "version": "2.0.0",
+  "description": "a bootstrap css complementary with some useful extra classes",
+  "main": "dist/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adamlachiri/bootstrap-extra.git"
+  },
+  "keywords": [
+    "css",
+    "bootstrap"
+  ],
+  "author": "Adam Lachiri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adamlachiri/bootstrap-extra/issues"
+  },
+  "homepage": "https://github.com/adamlachiri/bootstrap-extra#readme"
+}

@@ -1,9 +1,15 @@
-# ui-css
+# bootstrap-extra
 
-author:
+`bootstrap-extra` is a Bootstrap complementary package that provides additional classes that cover some lacking styling cases in the bootstrap css
 
-# Adam Lachiri
+## Author
 
-version:
+Adam Lachiri
 
-# 1.4
+## License
+
+MIT
+
+## Version 
+
+2.0.0
